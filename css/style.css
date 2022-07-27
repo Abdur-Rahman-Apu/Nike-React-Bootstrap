@@ -77,6 +77,30 @@ header {
     width: 15%;
 }
 
+
+/* ****************************************footer part******************************** */
+footer {
+    min-height: 150px;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+footer .facebook:hover i {
+    color: #4267B2;
+}
+
+footer .twitter:hover i {
+    color: #1DA1F2;
+}
+
+footer .instagram:hover i {
+    color: purple;
+}
+
 /* **************************media query********************** */
 
 @media screen and (max-width:576px) {
