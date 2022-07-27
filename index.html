@@ -129,8 +129,8 @@
 
 
         <!-- toast  -->
-        <div role="alert" aria-live="assertive" aria-atomic="true" class="toast fixed-bottom m-5 ms-auto"
-            data-bs-autohide="false">
+        <div role="alert" aria-live="assertive" aria-atomic="true" class="toast d-block fixed-bottom m-5 ms-auto"
+            data-bs-auto-hide="false">
             <div class="toast-header">
                 <img src="./icons/offer.svg" class="rounded me-2 img-fluid" alt="image">
                 <strong class="me-auto text-uppercase fw-bold third_color"> Best offer only for you</strong>
@@ -380,26 +380,12 @@
 
     <!-- js for toast  -->
     <script>
-
-        // toast 
-        window.onload = (event) => {
-            let myAlert = document.querySelector('.toast');
-            let bsAlert = new bootstrap.Toast(myAlert);
-
-            setTimeout(function () {
-                bsAlert.show();
-            }, 1);
-        };
-
         const myModal = document.getElementById('myModal')
         const myInput = document.getElementById('myInput')
 
         myModal.addEventListener('shown.bs.modal', () => {
             myInput.focus()
         })
-
-
-
     </script>
 </body>
 
