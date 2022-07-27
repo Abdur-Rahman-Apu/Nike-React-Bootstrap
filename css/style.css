@@ -15,9 +15,15 @@
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
 }
 
-.price_color {
+.third_color {
     color: #FA804C;
 }
+
+.card_color {
+    background-color: #F1F1F1;
+
+}
+
 
 /* *************************************Text***************************** */
 
@@ -47,4 +53,51 @@
 .text_bebas_neue_400 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
+}
+
+
+/* **************************************header part********************************** */
+header {
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    width: 30%;
+}
+
+
+/* *****************************************benefit section*************************** */
+
+.benefit-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.benefit-section .icon {
+    width: 15%;
+}
+
+/* **************************media query********************** */
+
+@media screen and (max-width:576px) {
+
+    .navbar-brand {
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .navbar-brand {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:769px) {
+
+    .card_color {
+        min-height: 350px;
+    }
 }
